@@ -1,0 +1,59 @@
+Sorular
+Kolay:
+1. Hücre Biçimlendirme: Çalışma kitabındaki tüm tarih sütununu tarih biçiminde gösterilecek şekilde biçimlendir.
+2. Basit Formül: Tüm çalışanların toplam maaşını hesaplamak için bir formül kullan.
+3. Filtreleme: "IT" departmanındaki çalışanları filtreleyerek göster.
+
+Orta:
+4. Koşullu Biçimlendirme: Performans Puanı 90 ve üzeri olan çalışanların hücrelerini yeşil renkte göster.
+5. Metin Fonksiyonları: Employee_Name sütunundaki adları ayırarak sadece soyadları başka bir sütuna yazdır.
+6. Tarih Farkı: Her çalışan için bugünden itibaren şirkette geçirdikleri toplam yıl sayısını hesapla.
+
+Zor:
+7. Düşeyara (VLOOKUP): "Employee_ID" ile çalışanı arayıp, aynı satırdaki "Department" bilgisini getir.
+8. Pivot Table: Departmanlara göre ortalama maaş ve toplam çalışan sayısını gösteren bir pivot tablo oluştur.
+9. Makro Oluşturma: Basit bir makro yazarak tüm "Salary" sütunundaki değerleri %10 artır.
+---------------------------------------------------------------------------------------------------------------------------
+Orta Seviye Sorular
+1. Koşullu Biçimlendirme: Discount_Percentage %15 ve üzeri olan siparişleri vurgulayın.
+
+2. Tarih Fonksiyonları: Her sipariş için teslim süresini Order_Date ve Shipment_Date farkını alarak hesaplayın.
+
+3. Veri Doğrulama: Delivery_Status sütunundaki hücreler için "Delivered" veya "Pending" dışında bir değer girilmesini engelleyin.
+
+4. Filtre Uygulama: Region sütununa göre “North” bölgesindeki siparişleri filtreleyin.
+
+5. Veri Çubuğu: Order_Amount sütununda veri çubukları ile görsel bir gösterim yapın.
+
+6. İleri Düzey Filtreleme: Feedback_Score 4.0'ın üzerinde olan ve "Electronics" kategorisinde yer alan siparişleri listeleyin.
+
+7. Tarih Fonksiyonu: Order_Date sütununda sadece 2023 yılına ait siparişleri bulun.
+
+8. Özet Tablo (Pivot Table): Product_Category ve Region bazında ortalama Order_Amount hesaplayın.
+
+9. Arama Fonksiyonu (MATCH): Order_ID ile Customer_Name sütununda isimleri bulmak için bir arama fonksiyonu oluşturun.
+
+10. İndis (INDEX) ve Kaçıncı (MATCH): Order_ID'ye göre Order_Amount getiren bir formül oluşturun.
+
+Zor Seviye Sorular
+
+1. Düşeyara (VLOOKUP): Customer_Name sütununa göre Region bilgisini getirin.
+
+2. İleri Seviye Koşullu Biçimlendirme: Order_Amount değeri 500’ün üzerinde olan siparişlerde Delivery_Status “Pending” ise kırmızı renkle vurgulayın.
+
+3. Hedef Ara (Goal Seek): Toplam Order_Amount değeri 5000 olacak şekilde
+Discount_Percentage sütununu hedefle.
+
+4. İleri Seviye Makro: Feedback_Score değerleri %0.5 artıracak bir makro yazın.
+
+5. Dinamik Grafik: Order_Date ve Order_Amount’a göre değişen, yıllık satış trendini gösteren bir grafik oluşturun.
+
+6. Özet Tablo (Pivot Table) & Dilimleyici (Slicer): Her Product_Category için Region bazlı siparişleri gösteren bir dilimleyici ekleyin.
+
+7. Birleştir (CONCATENATE): Customer_Name ve Region bilgilerini birleştirerek yeni bir sütun oluşturun.
+
+8.İstatistiksel Fonksiyon: Feedback_Score sütununda standart sapmayı hesaplayın.
+
+9. İleri Tarih Fonksiyonu: Siparişin hafta içi mi hafta sonu mu verildiğini hesaplayın.
+
+10. Veri Tablosu Oluşturma: Farklı Discount_Percentage değerleri için Order_Amount’ın nasıl değişeceğini gösterecek bir veri tablosu oluşturun.
