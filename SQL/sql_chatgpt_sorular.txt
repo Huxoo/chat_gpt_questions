@@ -1,0 +1,40 @@
+SQL konusunda hem temel hem de ileri seviyelerde becerilerinizi test edebileceğiniz sorular aşağıda verilmiştir:
+
+-- Kolay Seviye Sorular:
+
+1. Temel SELECT: customers tablosundaki tüm kayıtları listeleyin.
+2. WHERE ile Filtreleme: employees tablosunda department değeri "Sales" olan çalışanları getirin.
+3. ORDER BY ile Sıralama: products tablosundaki ürünleri price sütununa göre küçükten büyüğe sıralayın.
+4. LIMIT ile Sınırlama: orders tablosundaki ilk 5 kaydı listeleyin.
+5. COUNT ile Sayma: orders tablosundaki toplam sipariş sayısını bulun.
+6. DISTINCT ile Tekilleştirme: customers tablosunda yalnızca benzersiz country değerlerini getirin.
+7. LIKE ile Filtreleme: employees tablosunda adı "A" harfi ile başlayan çalışanları listeleyin.
+8. BETWEEN ile Filtreleme: products tablosunda price değeri 10 ile 50 arasında olan ürünleri listeleyin.
+9. IN ile Seçme: products tablosunda category değeri "Electronics", "Furniture" veya "Groceries" olan ürünleri listeleyin.
+10. GROUP BY ile Gruplama: employees tablosundaki çalışanları department sütununa göre gruplayarak her departmandaki çalışan sayısını getirin.
+
+-- Orta Seviye Sorular:
+
+1. JOIN Kullanımı: orders ve customers tablolarını birleştirerek her siparişin hangi müşteri tarafından verildiğini gösterin.
+2. INNER JOIN ile Eşleşen Veriler: employees ve departments tablolarını department_id üzerinden birleştirerek çalışanların departman isimlerini listeleyin.
+3. LEFT JOIN ile Tüm Kayıtları Getirme: employees ve projects tablolarını employee_id üzerinden birleştirerek tüm çalışanları, görevli oldukları projelerle beraber listeleyin.
+4. HAVING ile Gruplanmış Veriler: products tablosunda category başına ortalama price hesaplayın ve ortalama fiyatı 20'nin üzerinde olan kategorileri listeleyin.
+5. Subquery (Alt Sorgu): products tablosunda fiyatı tablodaki ortalama fiyatın üzerinde olan ürünleri listeleyin.
+6. Matematiksel Fonksiyon Kullanımı: orders tablosunda tüm siparişlerin toplam tutarını bulun (SUM fonksiyonunu kullanarak).
+7. CASE ile Koşullu İşlemler: employees tablosundaki salary sütununa göre çalışanları "Low", "Medium" ve "High" olarak sınıflandıran bir kolon ekleyin.
+8. String Fonksiyonları: customers tablosunda city sütunundaki tüm değerleri büyük harfe çevirin.
+9. UPDATE ile Kayıt Güncelleme: products tablosunda category değeri "Electronics" olan tüm ürünlerin fiyatını %10 artırın.
+10. DELETE ile Kayıt Silme: orders tablosunda order_date değeri 2019 yılından eski olan kayıtları silin.
+
+-- Zor Seviye Sorular:
+
+1. Birden Fazla JOIN Kullanımı: orders, customers ve products tablolarını birleştirerek her siparişteki ürün adını, müşteri adını ve sipariş tarihini gösteren bir sorgu yazın.
+2. CTE (Common Table Expression) Kullanımı: orders tablosundan her müşterinin toplam sipariş tutarını hesaplayan bir CTE tanımlayın ve bu CTE'yi kullanarak en yüksek sipariş tutarına sahip müşteriyi bulun.
+3. İç İçe Alt Sorgu Kullanımı: employees tablosunda, her departmanda en yüksek maaşı alan çalışanları listeleyen bir sorgu yazın.
+4. İleri Düzey Koşullu Filtreleme (CASE): sales tablosunda sale_date sütununa göre hafta içi ve hafta sonu satışlarını belirleyen bir kolon ekleyin.
+5. Recursive CTE Kullanımı: employees tablosunda üst-ast ilişkisini gösteren verilerden başlayarak tüm hiyerarşiyi listeleyen bir sorgu yazın.
+6. Pivot Sorgusu: sales tablosunda sale_date'e göre yıllık toplam satış tutarını yıllara göre gösteren bir pivot sorgusu oluşturun.
+7. WINDOW Fonksiyonları: employees tablosunda her çalışanın bulunduğu departmana göre maaş sıralamasını gösteren bir sorgu yazın.
+8. Zaman Farkı Hesaplama: orders tablosunda order_date ve shipment_date sütunlarına göre sipariş ve gönderim arasındaki gün farkını hesaplayın.
+9. Veri Dönüşümü: employees tablosunda maaşı en düşük olan %10'luk dilimi "Low Income" olarak sınıflandıran bir sorgu yazın.
+10. Trigger Oluşturma: inventory tablosunda bir ürün miktarı güncellendiğinde bu güncellemeyi bir log tablosuna kaydeden bir trigger oluşturun.
